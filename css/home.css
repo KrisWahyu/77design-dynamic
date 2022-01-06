@@ -1,0 +1,86 @@
+/*desktop*/
+@media (min-width: 992px) {
+  .jumbotron {
+    font-family: "Lato", sans-serif;
+    color: white;
+    background: rgb(121, 63, 187);
+    background: linear-gradient(0deg, rgba(121, 63, 187, 1) 20%, rgba(200, 67, 121, 1) 100%);
+    font-size: 1.5rem;
+    background-size: cover;
+    margin-top: -75px;
+    padding: 4rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 30px;
+    background-color: transparent !important;
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .navbar {
+    background-color: transparent !important;
+  }
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ffffff;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .judulsec {
+    font-weight: 500;
+  }
+  .juduljumbo {
+    font-weight: bold;
+    font-size: 72px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .gambar-mockupapp {
+    width: 300px !important;
+    padding: 0rem 2rem;
+  }
+  .tulisan-home {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
+/*mini*/
+@media (max-width: 991px) {
+  .jumbotron {
+    background: rgb(121, 63, 187);
+    background: linear-gradient(0deg, rgba(121, 63, 187, 1) 20%, rgba(200, 67, 121, 1) 100%);
+    font-size: 16px;
+    padding: 4rem 4rem;
+    color: white;
+  }
+  .jumbotron img {
+    width: 120px;
+  }
+  .tulisan-about {
+    padding: 2rem 2rem;
+  }
+  .gambar-ttg img {
+    padding: 2rem 2rem;
+  }
+  .navbar,
+  .navbar-brand {
+    font-weight: 500;
+    background-color: rgba(200, 67, 121, 1);
+    color: white;
+  }
+  .nav-link {
+    color: white;
+  }
+}
