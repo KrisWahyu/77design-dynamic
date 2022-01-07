@@ -39,7 +39,7 @@
                             <td><?php echo $num ?></td>
                             <td><?php echo $data['nama']; ?></td>
                             <td><?php echo $data['job']; ?></td>
-                            <td><img width="20%" class="row my-5 rounded-circle z-depth-2" src="../assets/images/<?php echo $data['file']; ?>" alt=" ">
+                            <td><img width="100px" height="100px" class="row my-5 rounded-circle z-depth-2" src="../assets/images/<?php echo $data['file']; ?>" alt=" ">
                                 <figcaption class="figure-caption "><?php echo $data['file']; ?></figcaption>
                             </td>
                             <td>

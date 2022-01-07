@@ -12,7 +12,8 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   }
   .jumbotron img {
-    width: 150px;
+    width: 120px;
+    height: 120px;
   }
   .info-team {
     margin-top: 100px;
@@ -101,9 +102,7 @@
     padding: 4rem 4rem;
     color: white;
   }
-  .jumbotron img {
-    width: 120px;
-  }
+
   .jumbotron h1 {
     font-weight: bold;
     font-size: 40px;

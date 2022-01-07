@@ -62,7 +62,7 @@
 
       ?>
         <div class="col ">
-          <img class="rounded-circle z-depth-2" src="assets/images/<?php echo $data['file']; ?>" alt="">
+          <img class="rounded-circle z-depth-2"  src="assets/images/<?php echo $data['file']; ?>" alt="">
           <h3><?php echo $data['nama']; ?></h3>
           <p><?php echo $data['job']; ?></p>
         </div>
@@ -80,7 +80,7 @@
 
       ?>
         <div class="col ">
-          <img class="rounded-circle z-depth-2" src="assets/images/<?php echo $data['file']; ?>" alt="">
+          <img class="rounded-circle z-depth-2" width="100px" height="100px" src="assets/images/<?php echo $data['file']; ?>" alt="">
           <h3><?php echo $data['nama']; ?></h3>
           <p><?php echo $data['job']; ?></p>
         </div>
